@@ -49,3 +49,5 @@ class MyClient(discord.Client):
 # RUN
 client = MyClient()
 client.run(config.TOKEN)
+
+bot.run(str(token))
